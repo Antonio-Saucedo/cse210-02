@@ -1,5 +1,5 @@
 """ Main coding for initiating the game code to start running"""
-from game.director import director
+from game.director import Director
 
-director = director()
+director = Director()
 director.start_game()

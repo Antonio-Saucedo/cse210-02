@@ -12,7 +12,6 @@ Design the Program
 Gather with your team at the appointed time and place. Make sure everyone has successfully setup the project on their personal computer. Design the classes and algorithms for your game. Refer to the game specification again if you need to.
 Follow these suggestions if you're unsure how to design a program together.
 
-
 Verify Your Work
 Make sure that your design choices have been documented and pushed to the remote repository. Verify that each person has refreshed their local repository with the changes. Lastly, make sure that everyone knows what their coding assignments are.
 
