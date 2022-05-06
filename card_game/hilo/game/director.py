@@ -9,16 +9,14 @@ class Director:
     # points: integer - holds the score of the game
     # guess - string - holds the player guess
     # play - boolean - tracks if player wants to play again or not
-    # card1: an instance of the class card - holds the card
-    # card2: another instance of the class card - holds another card
+    # card1 - an instance of the class card - holds the card
+    # card2 - another instance of the class card - holds another card
     def __init__(self):
         self.play = True
         self.guess = ""
         self.points = 300
         self.card1 = 0
         self.card2 = 0
-        
-
 
     # manuel
     def start_game(self):
@@ -68,7 +66,6 @@ class Director:
             self.points += 100
 
         print(Fore.GREEN + Style.BRIGHT + f"Your score is: {self.points}\n" + Style.RESET_ALL)
-        #print("test")
 
     # Cole
         """Ask the user if they want to play again. 
@@ -87,11 +84,9 @@ class Director:
 
             if (answer != "n" and answer !="y"):
                 print("Please enter a \"y\" or a \"n\".")
-        
+
         if answer == "n":
             print ("\nGame over. You chose to stop playing.")
             self.play = False
         else:
             self.play = True
-
-    
