@@ -44,7 +44,9 @@ class Director:
             return
 
         higher_lower = input("Higher or Lower? [h/l] ")
-        self.guess = (higher_lower == "h" or higher_lower == "l")
+        while (higher_lower.lower() != "h") & (higher_lower.lower() != "l"):
+            higher_lower = input("Higher or Lower? [h/l] ")
+        self.guess = higher_lower
 
     # Antonio
     def results(self):
@@ -56,16 +58,20 @@ class Director:
         if not self.play:
             return
 
-        print(Fore.BLUE + Style.BRIGHT +f"The next card was: {self.card2.getValue()}")
+        print(Fore.BLUE + Style.BRIGHT + f"The next card was: {self.card2.getValue()}")
 
-        if ((self.card1.getValue() < self.card2.getValue()) & self.guess == "h") | ((self.card1.getValue() > self.card2.getValue()) & self.guess == "l"):
-            self.points -= 75
+        if ((self.card1.getValue() < self.card2.getValue()) & (self.guess == "h")) | ((self.card1.getValue() > self.card2.getValue()) & (self.guess == "l")):
+            self.points += 100
         elif (self.card1.getValue() == self.card2.getValue()):
             self.points = self.points
         else:
-            self.points += 100
+            self.points -= 75
 
-        print(Fore.GREEN + Style.BRIGHT + f"Your score is: {self.points}\n" + Style.RESET_ALL)
+        if self.points <= 0:
+            self.play = False
+            print(Fore.RED + Style.BRIGHT + "You are out of points.")
+        else:
+            print(Fore.GREEN + Style.BRIGHT + f"Your score is: {self.points}\n" + Style.RESET_ALL)
 
     # Cole
         """Ask the user if they want to play again. 
