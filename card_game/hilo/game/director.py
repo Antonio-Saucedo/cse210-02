@@ -68,7 +68,7 @@ class Director:
             self.points += 100
 
         print(Fore.GREEN + Style.BRIGHT + f"Your score is: {self.points}\n" + Style.RESET_ALL)
-        print("test")
+        #print("test")
 
     # Cole
         """Ask the user if they want to play again. 
