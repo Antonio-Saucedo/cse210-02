@@ -30,6 +30,7 @@ class Director:
         while self.play_again & (self.points > 0):
             print(self.card1.getValue())
             print(self.card2.getValue())
+            self.get_inputs
             self.results()
 
     # Godwin 
@@ -38,6 +39,10 @@ class Director:
         Args:
             self (Director): An instance of Director.
         """
+    def get_inputs(self):
+        higher_lower = input("Higher or Lower? [h/l] ")
+        self.play_again = (higher_lower == "h" or higher_lower == "l")
+
 
     # Antonio
     def results(self):
@@ -58,6 +63,22 @@ class Director:
         Args:
             self (Director): An instance of Director.
         """
-    
+    def play_again(self):
+        if not self.play_again:
+            return
+        
+        answer = ""
+
+        while (answer != "y" and answer != "n"):
+            answer = input("Want to play again? [y/n] ").lower()
+
+            if (answer != "n" and answer !="y"):
+                print("Please enter a \"y\" or a \"n\".")
+        
+        if answer == "n":
+            print ("\nGame over. You chose to stop playing.")
+            return False
+        else:
+            return True
 
     
