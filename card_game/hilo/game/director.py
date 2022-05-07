@@ -28,7 +28,7 @@ class Director:
         while self.play & (self.points > 0):
             self.card1 = Card()
             self.card2 = Card()
-            print(self.card1.getValue())
+            print(f"\nThe card is: {self.card1.getValue()}{self.card1.cardsuit}")
             self.get_inputs()
             self.results()
             self.play_again()
@@ -58,7 +58,7 @@ class Director:
         if not self.play:
             return
 
-        print(Fore.BLUE + Style.BRIGHT + f"The next card was: {self.card2.getValue()}")
+        print(Fore.BLUE + Style.BRIGHT + f"The next card was: {self.card2.getValue()}{self.card2.getCardSuit()}")
 
         if ((self.card1.getValue() < self.card2.getValue()) & (self.guess == "h")) | ((self.card1.getValue() > self.card2.getValue()) & (self.guess == "l")):
             self.points += 100
@@ -69,7 +69,7 @@ class Director:
 
         if self.points <= 0:
             self.play = False
-            print(Fore.RED + Style.BRIGHT + "You are out of points.")
+            print(Fore.RED + Style.BRIGHT + "Game over. You are out of points.\n")
         else:
             print(Fore.GREEN + Style.BRIGHT + f"Your score is: {self.points}\n" + Style.RESET_ALL)
 
@@ -92,7 +92,7 @@ class Director:
                 print("Please enter a \"y\" or a \"n\".")
 
         if answer == "n":
-            print ("\nGame over. You chose to stop playing.")
+            print ("\nGame over. You chose to stop playing.\n")
             self.play = False
         else:
             self.play = True
