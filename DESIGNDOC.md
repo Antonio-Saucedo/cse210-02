@@ -21,12 +21,15 @@ This is our plan...
 
 ---
 
+<<<<<<< HEAD
 ## Team Responsibilities
 
 Shane Cook
 
 - Example responsibility
 
+=======
+>>>>>>> 6011b50bee89bd8f67b02b1de6c1a317cfc909aa
 Antonio Saucedo
 
 - Example responsibility
