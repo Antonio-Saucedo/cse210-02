@@ -47,13 +47,13 @@ Director
 Antonio Saucedo
 
 - Create project repository.
-- results display and update method used in the Director class.
+- Results method used in the Director class to display and update score.
 - Debugging results and adding attributes for Director class functionality.
 
 Godwin Iyip
 
 - Create the Function for get_input
-   - Get player input on high/low guess for the next card and update the player's total score based on input.
+  - Get player input on high/low guess for the next card and update the player's total score based on input.
 
 Manuel Cipriano
 
@@ -64,6 +64,6 @@ Manuel Cipriano
 Chinemerem Ukeje (Cole)
 
 - Create the Funtion for play_again
-    - Ask the user if they want to play again.
+  - Ask the user if they want to play again.
 
 ---
