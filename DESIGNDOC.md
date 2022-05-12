@@ -36,7 +36,7 @@ Antonio Saucedo
 
 Godwin Iyip
 
-- Example responsibility
+- Create the Function for get_input
 
 Manuel Cipriano
 
@@ -44,6 +44,6 @@ Manuel Cipriano
 
 Chinemerem Ukeje (Cole)
 
-- Example responsibility
+- Create the Funtion for play_again
 
 ---
