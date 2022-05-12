@@ -21,6 +21,7 @@ We are going to use two classes the first one called Card this will represent th
 
 Card
 ---------------------------
+
 | - value
 | - cardsuit
 ---------------------------
@@ -30,6 +31,7 @@ Card
 
 Director
 ---------------------------
+
 | - play
 | - guess
 | - points
