@@ -17,7 +17,6 @@ This is our plan...
 Shane Cook
 * Example responsibility
 
-
 Antonio Saucedo
 * Example responsibility
 
