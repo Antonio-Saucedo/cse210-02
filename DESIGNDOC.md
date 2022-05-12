@@ -21,18 +21,11 @@ This is our plan...
 
 ---
 
-<<<<<<< HEAD
-## Team Responsibilities
-
-Shane Cook
-
-- Example responsibility
-
-=======
->>>>>>> 6011b50bee89bd8f67b02b1de6c1a317cfc909aa
 Antonio Saucedo
 
-- Example responsibility
+- Create project repository.
+- results display and update method used in the Director class.
+- Debugging results and adding attributes for Director class functionality.
 
 Godwin Iyip
 
