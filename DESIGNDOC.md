@@ -30,7 +30,7 @@ Antonio Saucedo
 Godwin Iyip
 
 - Create the Function for get_input
-   - Get player input on high/low guess for the next card and update the player's total score based on input.
+  - Get player input on high/low guess for the next card and update the player's total score based on input.
 
 Manuel Cipriano
 
@@ -39,6 +39,6 @@ Manuel Cipriano
 Chinemerem Ukeje (Cole)
 
 - Create the Funtion for play_again
-    - Ask the user if they want to play again.
+  - Ask the user if they want to play again.
 
 ---
