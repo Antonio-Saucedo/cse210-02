@@ -19,7 +19,9 @@ Shane Cook
 
 
 Antonio Saucedo
-* Example responsibility
+* Create project repository.
+* results display and update method used in the Director class.
+* Debugging results and adding attributes for Director class functionality.
 
 
 Godwin Iyip
