@@ -1,5 +1,4 @@
 # cse210-02
-cse210-02
 
 # Hilo
 Are you ready for a fun time? Come and try Hilo and you won't regret it. The rules are simple. We
