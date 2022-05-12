@@ -17,7 +17,30 @@
 
 ## The Plan
 
-This is our plan...
+We are going to use two classes the first one called Card this will represent the cards, and the second one called Director this will represent the player. The following are the structure for the our classes:
+
+Card
+---------------------------
+| - value
+| - cardsuit
+---------------------------
+| + getValue()
+| + getCardSuit()
+---------------------------
+
+Director
+---------------------------
+| - play
+| - guess
+| - points
+| - card1
+| - card2
+----------------------------
+| + startGame()
+| + getInputs()
+| + results()
+| + playAgain()
+----------------------------
 
 ---
 
@@ -34,7 +57,9 @@ Godwin Iyip
 
 Manuel Cipriano
 
-- Example responsibility
+- Create the constructor of the Director Class
+- Create the constructor of the Card class
+- Create the functions getValue and getCardsuit for the Card class
 
 Chinemerem Ukeje (Cole)
 
