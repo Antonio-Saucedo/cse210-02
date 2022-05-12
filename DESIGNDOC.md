@@ -1,8 +1,11 @@
 # Hilo Game Design Documentation
+
 ---
+
 [Hilo Specification](https://byui-cse.github.io/cse210-course-competency/abstraction/materials/hilo-specification.html)
 
 ---
+
 ## Principles used in the program
 * Abstraction
   * Created the card class to be used inside the director class which is used inside of the main.py file. This allows for over 115 lines of code to be simplified into 3 lines.
@@ -122,19 +125,27 @@ Shane Cook
 * Game Design Documentation on DESIGNDOC.md
 * README.md
 
-Antonio Saucedo
-* Example responsibility
 
+Antonio Saucedo
+
+- Create project repository.
+- Results method used in the Director class to display and update score.
+- Debugging results and adding attributes for Director class functionality.
 
 Godwin Iyip
-* Example responsibility
 
+- Create the Function for get_input
+  - Get player input on high/low guess for the next card and update the player's total score based on input.
 
 Manuel Cipriano
-* Example responsibility
 
+- Create the constructor of the Director Class
+- Create the constructor of the Card class
+- Create the functions getValue and getCardsuit for the Card class
 
 Chinemerem Ukeje (Cole)
-* Example responsibility
+
+- Create the Funtion for play_again
+  - Ask the user if they want to play again.
 
 ---
