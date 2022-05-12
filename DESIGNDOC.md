@@ -24,7 +24,7 @@ This is our plan...
 Antonio Saucedo
 
 - Create project repository.
-- results display and update method used in the Director class.
+- Results method used in the Director class to display and update score.
 - Debugging results and adding attributes for Director class functionality.
 
 Godwin Iyip
