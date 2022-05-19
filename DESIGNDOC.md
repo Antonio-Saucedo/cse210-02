@@ -143,7 +143,6 @@ All of this is abstracted by the main.py file which contains the following code:
     director.start_game()
 
 The main.py file imports the Director class from the game.director file. From there, an instance of the Director class is created and stored into the director variable. Following that storage, the start_game method is then called to run the entirety of the program.
->>>>>>> 096e24ca572d9cc49dc55fdf01b08ef0d2b76673
 
 ---
 ## Team Responsibilities
